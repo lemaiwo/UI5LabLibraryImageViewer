@@ -25,17 +25,6 @@ sap.ui.define(["sap/ui/core/Control", 'sap/ui/core/Popup', './lib/viewer.min'], 
 			oRm.write("</div>");
 		},
 		onBeforeRendering: function(evt) {
-			var cssId = 'myCss'; // you could encode the css path itself to generate id..
-			if (!document.getElementById(cssId)) {
-				var head = document.getElementsByTagName('head')[0];
-				var link = document.createElement('link');
-				link.id = cssId;
-				link.rel = 'stylesheet';
-				link.type = 'text/css';
-				link.href = jQuery.sap.getModulePath("ui5lab.wl.img.lib") + "/viewer.min.css";
-				link.media = 'all';
-				head.appendChild(link);
-			}
 		},
 		onAfterRendering: function(evt) {
 			if (this.getSrc() && this.getSrc().length > 0) {

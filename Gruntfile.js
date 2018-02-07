@@ -4,7 +4,7 @@ module.exports = function(grunt) {
 
 	grunt.initConfig({
 
-		libraryName: 'ui5lab.wl.pdf',
+		libraryName: 'ui5lab.wl.img',
 
 		dir: {
 			src: 'src',
@@ -31,6 +31,7 @@ module.exports = function(grunt) {
 						'<%= dir.bower_components %>/openui5-sap.m/resources',
 						'<%= dir.bower_components %>/openui5-sap.f/resources',
 						'<%= dir.bower_components %>/openui5-sap.ui.layout/resources',
+						'<%= dir.bower_components %>/openui5-sap.ui.unified/resources',
 						'<%= dir.bower_components %>/openui5-themelib_sap_belize/resources',
 						'<%= dir.src %>'
 					],
@@ -40,6 +41,7 @@ module.exports = function(grunt) {
 						// TODO: how to get rid of these indirect dependencies only needed for the browser (f + layout)
 						'<%= dir.bower_components %>/openui5-sap.f/test-resources',
 						'<%= dir.bower_components %>/openui5-sap.ui.layout/test-resources',
+						'<%= dir.bower_components %>/openui5-sap.ui.unified/test-resources',
 						'<%= dir.bower_components %>/openui5-themelib_sap_belize/test-resources',
 						'<%= dir.test %>',
 						'<%= dir.ui5lab_browser %>/test-resources'
@@ -53,6 +55,7 @@ module.exports = function(grunt) {
 						'<%= dir.bower_components %>/openui5-sap.m/resources',
 						'<%= dir.bower_components %>/openui5-sap.f/resources',
 						'<%= dir.bower_components %>/openui5-sap.ui.layout/resources',
+						'<%= dir.bower_components %>/openui5-sap.ui.unified/resources',
 						'<%= dir.bower_components %>/openui5-themelib_sap_belize/resources',
 						'<%= dir.dist %>/resources'
 					],
@@ -61,6 +64,7 @@ module.exports = function(grunt) {
 						'<%= dir.bower_components %>/openui5-sap.m/test-resources',
 						'<%= dir.bower_components %>/openui5-sap.f/test-resources',
 						'<%= dir.bower_components %>/openui5-sap.ui.layout/test-resources',
+						'<%= dir.bower_components %>/openui5-sap.ui.unified/test-resources',
 						'<%= dir.bower_components %>/openui5-themelib_sap_belize/test-resources',
 						'<%= dir.dist %>/test-resources',
 						'<%= dir.ui5lab_browser %>/test-resources'

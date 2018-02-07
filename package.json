@@ -1,10 +1,10 @@
 {
-  "name": "ui5lab-wl-pdf",
+  "name": "ui5lab-wl-img",
   "version": "0.0.1",
-  "description": "A library with a PDF control that will show a PDF based on a base64 data uri",
+  "description": "A library with an Image Viewer control that will show an image based on a base64 data uri",
   "repository" : {
       "type" : "git",
-      "url" : "https://github.com/lemaiwo/UI5LabLibraryPDFViewer.git"
+      "url" : "https://github.com/lemaiwo/UI5LabLibraryImageViewer.git"
   },
   "license" : "MIT",
   "private": false,
