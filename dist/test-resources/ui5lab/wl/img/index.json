@@ -1,5 +1,5 @@
 {
-	"ui5lab.wl.pdf": {
+	"ui5lab.wl.img": {
 		"icon": "sap-icon://picture",
 		"name": "Image library",
 		"description": "A library to view images based on a base64 data uri",
