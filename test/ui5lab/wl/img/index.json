@@ -18,7 +18,7 @@
 				"samples": [
 					{
 						"id": "ImageViewer",
-						"name": "Image Viwer Example",
+						"name": "Image Viewer Example",
 						"description": "Upload a Image and show it immediately as a base 64 data uri"
 					}
 				]
